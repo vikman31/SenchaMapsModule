@@ -3,8 +3,8 @@
  * and open the template in the editor.
  */
 Ext.application({
-    name: 'MapsModule',
-    appFolder: 'com/ihi/builder/MapsModule',
+    name: 'MapsModule', //namespace
+    appFolder: 'com/ihi/builder/MapsModule', //path of the app folder
     
     views: ['MainView', 'MapView', 'PlacesList'],
     controllers: ['MainController'],
@@ -15,4 +15,5 @@ Ext.application({
     launch: function(){
         var view = Ext.create("MapsModule.view.MainView");
     }
+
 });
