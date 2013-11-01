@@ -1,0 +1,292 @@
+{
+    "children": [
+    {
+        "text": "Maps Module",
+        "leaf": false,
+        "configuration": {
+            "module_uuid": "2fa81abf-36b0-4277-895d-b3fc4206627c",   
+            "module_class": "MapsModule.view.MainView",
+            "module_root": true,
+            "module_xtype": "panel",      
+            "module_type" : "mobile",
+            "class_depends": "TemplateManager,ManifestReader"
+        },
+        "properties":[
+        {
+            "Text" : "Navigation title", 
+            "Property" : "navTitle", 
+            "Value" : "Maps"
+        },
+        {
+            "Text" : "Module Title", 
+            "Property" : "moduleTitle", 
+            "Value" : "Maps Module"          
+        },
+        {
+            "Text" : "Module Icon", 
+            "Property" : "navIcon", 
+            "Value" : "com/ihi/builder/MapsModule/resource/images/gmaps.png",
+            "Type": "resource"
+        },
+        {
+            "Text" : "Module Id", 
+            "Property" : "moduleId", 
+            "Value" : "MapsModule"          
+        },
+        {
+            "Text" : "Module Status", 
+            "Property" : "moduleStatus", 
+            "Value" : "Enabled" ,
+            "Type": "multiselect",
+            "Selectors": [
+                {
+                    "Multiselect": "Enabled"
+                },            
+                {
+                    "Multiselect": "Disabled"
+                }
+            ]
+        }
+        ],
+        "private_properties":[
+        {
+            "Property": "navTitle",
+            "Value" : ""
+        },
+        {
+            "Property": "moduleTitle",
+            "Value" : ""
+        },
+        {
+            
+        },
+        {
+            "Property": "moduleId",
+            "Value" : ""
+        },
+        {
+            "Property": "moduleStatus",
+            "Value" : ""
+        }
+        ],
+        "children": [
+        {
+            "text": "Place",
+            "leaf": true,
+            "properties": [
+            {
+                "Text" : "Title",
+                "Property" : "titlePlace",
+                "Value" : "UNILA"
+            },
+            {
+                "Text" : "Address",
+                "Property" : "addressPlace",
+                "Value" : "Vicente Guerrero 1806, Maravillas, 62230 Cuernavaca, Morelos"
+            },
+            {
+                "Text" : "Logo",
+                "Property" : "logoPlace",
+                "Value" : "com/ihi/builder/MapsModule/resource/images/unila.jpg",
+                "Type" : "resource"
+            }
+            ],
+            "private_properties":[],
+            "children": []
+        },
+        {
+            "text": "Place",
+            "leaf": true,
+            "properties": [
+            {
+                "Text" : "Title",
+                "Property" : "titlePlace",
+                "Value" : "UPEMOR"
+            },
+            {
+                "Text" : "Address",
+                "Property" : "addressPlace",
+                "Value" : "Paseo Cuauhnahuac 566, Lomas del Texcal, 62560 Jiutepec, Morelos"
+            },
+            {
+                "Text" : "Logo",
+                "Property" : "logoPlace",
+                "Value" : "com/ihi/builder/MapsModule/resource/images/upemor.jpg",
+                "Type" : "resource"
+            }
+            ],
+            "private_properties":[],
+            "children": []
+        },
+        {
+            "text": "Place",
+            "leaf": true,
+            "properties": [
+            {
+                "Text" : "Title",
+                "Property" : "titlePlace",
+                "Value" : "La Salle"
+            },
+            {
+                "Text" : "Address",
+                "Property" : "addressPlace",
+                "Value" : "Inglaterra 406, Lomas de Cortes, San Cristobla, 62230 Cuernavaca, Morelos"
+            },
+            {
+                "Text" : "Logo",
+                "Property" : "logoPlace",
+                "Value" : "com/ihi/builder/MapsModule/resource/images/lasalle.png",
+                "Type" : "resource"
+            }
+            ],
+            "private_properties":[],
+            "children": []
+        },
+        {
+            "text": "Place",
+            "leaf": true,
+            "properties": [
+            {
+                "Text" : "Title",
+                "Property" : "titlePlace",
+                "Value" : "UTEZ"
+            },
+            {
+                "Text" : "Address",
+                "Property" : "addressPlace",
+                "Value" : "Av Universidad Tecnológica 1, Palo Escrito, 62760 Emiliano Zapata, Morelos"
+            },
+            {
+                "Text" : "Logo",
+                "Property" : "logoPlace",
+                "Value" : "com/ihi/builder/MapsModule/resource/images/utez.jpg",
+                "Type" : "resource"
+            }
+            ],
+            "private_properties":[],
+            "children": []
+        },
+        {
+            "text": "Place",
+            "leaf": true,
+            "properties": [
+            {
+                "Text" : "Title",
+                "Property" : "titlePlace",
+                "Value" : "UVM"
+            },
+            {
+                "Text" : "Address",
+                "Property" : "addressPlace",
+                "Value" : "Av Miguel Hidalgo y Costilla, 62580 Temixco, Morelos"
+            },
+            {
+                "Text" : "Logo",
+                "Property" : "logoPlace",
+                "Value" : "com/ihi/builder/MapsModule/resource/images/uvm.jpg",
+                "Type" : "resource"
+            }
+            ],
+            "private_properties":[],
+            "children": []
+        },
+        {
+            "text": "Place",
+            "leaf": true,
+            "properties": [
+            {
+                "Text" : "Title",
+                "Property" : "titlePlace",
+                "Value" : "UAEM"
+            },
+            {
+                "Text" : "Address",
+                "Property" : "addressPlace",
+                "Value" : "Universidad Autónoma del Estado de Morelos Cuernavaca, Morelos"
+            },
+            {
+                "Text" : "Logo",
+                "Property" : "logoPlace",
+                "Value" : "com/ihi/builder/MapsModule/resource/images/uaem.jpg",
+                "Type" : "resource"
+            }
+            ],
+            "private_properties":[],
+            "children": []
+        },
+        {
+            "text": "Place",
+            "leaf": true,
+            "properties": [
+            {
+                "Text" : "Title",
+                "Property" : "titlePlace",
+                "Value" : "UNINTER"
+            },
+            {
+                "Text" : "Address",
+                "Property" : "addressPlace",
+                "Value" : "San Jerónimo 607, Tlaltenago, 62170 Cuernavaca, Morelos"
+            },
+            {
+                "Text" : "Logo",
+                "Property" : "logoPlace",
+                "Value" : "com/ihi/builder/MapsModule/resource/images/uninter.jpg",
+                "Type" : "resource"
+            }
+            ],
+            "private_properties":[],
+            "children": []
+        },
+        {
+            "text": "Place",
+            "leaf": true,
+            "properties": [
+            {
+                "Text" : "Title",
+                "Property" : "titlePlace",
+                "Value" : "UNIVAC"
+            },
+            {
+                "Text" : "Address",
+                "Property" : "addressPlace",
+                "Value" : "Chamilpa 13 y 15, Miraval, 62270 Cuernavaca, Morelos"
+            },
+            {
+                "Text" : "Logo",
+                "Property" : "logoPlace",
+                "Value" : "com/ihi/builder/MapsModule/resource/images/univac.jpg",
+                "Type" : "resource"
+            }
+            ],
+            "private_properties":[],
+            "children": []
+        },
+        {
+            "text": "Place",
+            "leaf": true,
+            "properties": [
+            {
+                "Text" : "Title",
+                "Property" : "titlePlace",
+                "Value" : "UNISOL"
+            },
+            {
+                "Text" : "Address",
+                "Property" : "addressPlace",
+                "Value" : ""
+            },
+            {
+                "Text" : "Logo",
+                "Property" : "logoPlace",
+                "Value" : "",
+                "Type" : "resource"
+            }
+            ],
+            "private_properties":[],
+            "children": []
+        }
+        ]
+    }
+    ]
+}
